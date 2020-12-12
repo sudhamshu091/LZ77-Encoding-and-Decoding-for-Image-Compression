@@ -84,7 +84,7 @@ h = int(input("Enter 1 if you want to input an colour image file, 2 for default 
 if h == 1:
     file = input("Enter the filename:")
     my_string = np.asarray(Image.open(file),np.uint8)
-    a = my_string
+    sudhi = my_string
     shape = my_string.shape
     print ("Enetered string is:",my_string)
     stringToEncode = str(my_string.tolist())
@@ -92,7 +92,7 @@ elif h == 2:
     array = np.arange(0, 737280, 1, np.uint8)
     my_string = np.reshape(array, (1024, 720))
     print ("Enetered string is:",my_string)
-    a = my_string
+    sudhi = my_string
     stringToEncode = str(my_string.tolist())
 else:
     print("You entered invalid input")                    # taking user input
@@ -127,7 +127,7 @@ if h == 1:
     print(res.shape)
     data = Image.fromarray(res,"RGB")
     data.save('uncompressed.png')
-    if res.all() == res.all():
+    if sudhi.all() == res.all():
         print("Success")
 if h == 2:
     res = uncompressed_string.strip('][').split(', ')
