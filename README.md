@@ -3,4 +3,11 @@
 ![Input Image](new.jpg)
 [Output Image](uncompressed.png)
 ![Output Image](uncompressed.png)
-
+[Input Image](ksd.jpg)
+![Input Image](ksd.jpg)
+[Output Image](uncompressed_ksd.png)
+![Output Image](uncompressed_ksd.png)
+[Input Image](cat.jpg)
+![Input Image](cat.jpg)
+[Output Image](uncompressed_cat.png)
+![Output Image](uncompressed_cat.png)
